@@ -3,6 +3,18 @@ gcc32 = riscv32-unknown-elf-gcc
 march32 = -march=rv32imafd
 march64 = -march=rv64imafd
 
+second_mem.o:second_mem.c
+	${gcc64} -fno-common -fno-builtin-printf -specs=htif_nano.specs -c second_mem.c
+
+second_mem.riscv:second_mem.o malloc.o
+	${gcc64}  -static -specs=htif_nano.specs second_mem.o malloc.o -Wl,--allow-multiple-definition -o second_mem.riscv
+
+rocc_chuan.o:rocc_chuan.c
+	${gcc64} -fno-common -fno-builtin-printf -specs=htif_nano.specs -c rocc_chuan.c
+
+rocc_chuan.riscv:rocc_chuan.o
+	${gcc64}  -static -specs=htif_nano.specs rocc_chuan.o -o rocc_chuan.riscv
+
 multi_hello.o:multi_hello.c
 	${gcc64} -fno-common -fno-builtin-printf -specs=htif_nano.specs -c multi_hello.c
 

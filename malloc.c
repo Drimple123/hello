@@ -231,6 +231,10 @@
 
 /* #define WIN32 */
 
+//zzguard:start
+#include "rocc.h"
+//zzguard:end
+
 #ifdef WIN32
 
 #define WIN32_LEAN_AND_MEAN
@@ -567,7 +571,12 @@ extern "C" {
 #define public_iCOMALLOc independent_comalloc
 #endif /* USE_DL_PREFIX */
 
-
+//zzguard:start
+#define shadow_mALLOc shadow_malloc
+#define shadow_fREe   shadow_free
+Void_t* shadow_mALLOc(size_t);
+void    shadow_fREe(Void_t*);
+//zzguard:end
 /*
   HAVE_MEMCPY should be defined if you are not otherwise using
   ANSI STD C, but still have memcpy and memset in your C library
@@ -1577,24 +1586,57 @@ Void_t* public_mALLOc(size_t bytes) {
   }
   m = mALLOc(bytes);
   //==== zzguard: start===//
-  puts("hello drimple malloc");
+  //puts("hello drimple malloc");
+  ROCC_INSTRUCTION_SS(0, m, bytes, 5);//把申请的地址和size传给asan
   //==== zzguard: end===//
   if (MALLOC_POSTACTION != 0) {
   }
   return m;
 }
 
+//==== zzguard: start===//
+Void_t* shadow_mALLOc(size_t bytes) {
+  Void_t* m;
+  if (MALLOC_PREACTION != 0) {
+    return 0;
+  }
+  m = mALLOc(bytes);
+  
+  //puts("hello drimple shadow_malloc");
+  
+  if (MALLOC_POSTACTION != 0) {
+  }
+  return m;
+}
+//==== zzguard: end===//
+
 void public_fREe(Void_t* m) {
   if (MALLOC_PREACTION != 0) {
     return;
   }
+  
+  fREe(m);
   //==== zzguard: start===//
-  puts("hello drimple free");
+  //puts("hello drimple free");
+  ROCC_INSTRUCTION_SS(0, m, 32, 5);//把free的地址传给asan，并写32表示free了
   //==== zzguard: end===//
+  if (MALLOC_POSTACTION != 0) {
+  }
+}
+
+//==== zzguard: start===//
+void shadow_fREe(Void_t* m) {
+  if (MALLOC_PREACTION != 0) {
+    return;
+  }
+  
+  //puts("hello drimple shadow_free");
+  
   fREe(m);
   if (MALLOC_POSTACTION != 0) {
   }
 }
+//==== zzguard: end===//
 
 Void_t* public_rEALLOc(Void_t* m, size_t bytes) {
   if (MALLOC_PREACTION != 0) {

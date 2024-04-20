@@ -21,6 +21,10 @@
     INSTEAD of your system system <malloc.h>.  At least on ANSI, all
     declarations should be compatible with system versions
 */
+//zzguard:start
+void*  shadow_malloc(size_t);
+void   shadow_free(void*);
+//zzguard:end
 
 #ifndef MALLOC_270_H
 #define MALLOC_270_H

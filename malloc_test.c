@@ -17,11 +17,13 @@ int main(void)
     }
     ROCC_INSTRUCTION_S(0, p0, 6);
     
+    //printf("size of int = %d\n", sizeof(int)); 
+
     
 
     int *p1;
     p1 = NULL;
-    p1 = (int *)malloc(sizeof(int));
+    p1 = (int *)malloc(sizeof(int));//sizeof(int)=4
     // char *p2;
     // p2 = NULL;
     // p2 = (char *)malloc(6);
@@ -58,5 +60,11 @@ int main(void)
     //把shadow memory free掉
     shadow_free(p0);
     p0 = NULL;
+    return 0;
+}
+
+int __main(void)
+{
+    while(1){}
     return 0;
 }

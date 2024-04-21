@@ -1618,7 +1618,7 @@ void public_fREe(Void_t* m) {
   fREe(m);
   //==== zzguard: start===//
   //puts("hello drimple free");
-  ROCC_INSTRUCTION_SS(0, m, 32, 5);//把free的地址传给asan，并写32表示free了
+  ROCC_INSTRUCTION_SS(0, m, 255, 5);//把free的地址传给asan，并写255表示free了
   //==== zzguard: end===//
   if (MALLOC_POSTACTION != 0) {
   }

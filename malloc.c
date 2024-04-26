@@ -235,6 +235,8 @@
 #include "rocc.h"
 //zzguard:end
 
+//#define ASAN 1
+
 #ifdef WIN32
 
 #define WIN32_LEAN_AND_MEAN
@@ -1579,6 +1581,33 @@ static pthread_mutex_t mALLOC_MUTEx = PTHREAD_MUTEX_INITIALIZER;
 
 #endif
 
+
+void zz_set(Void_t* start, size_t bytes){
+  int a,b;
+  a = bytes / 32;
+  b = bytes % 32;
+  for(int i=0; i<a; i=i+1){
+    ROCC_INSTRUCTION_SS(0, start + i*32, 32, 5)
+  }
+  if(b == 0){}
+  else{
+    ROCC_INSTRUCTION_SS(0, start + a*32, b, 5)
+  }
+}
+
+void zz_unset(Void_t* start, size_t bytes){
+  int a,b;
+  a = bytes / 32;
+  b = bytes % 32;
+  for(int i=0; i<a; i=i+1){
+    ROCC_INSTRUCTION_SS(0, start + i*32, 255, 5)
+  }
+  if(b == 0){}
+  else{
+    ROCC_INSTRUCTION_SS(0, start + a*32, 255, 5)
+  }
+}
+
 Void_t* public_mALLOc(size_t bytes) {
   Void_t* m;
   if (MALLOC_PREACTION != 0) {
@@ -1586,8 +1615,8 @@ Void_t* public_mALLOc(size_t bytes) {
   }
   m = mALLOc(bytes);
   //==== zzguard: start===//
-  //puts("hello drimple malloc");
   ROCC_INSTRUCTION_SS(0, m, bytes, 5);//把申请的地址和size传给asan
+  //zz_set(m, bytes);
   //==== zzguard: end===//
   if (MALLOC_POSTACTION != 0) {
   }
@@ -1619,6 +1648,7 @@ void public_fREe(Void_t* m) {
   //==== zzguard: start===//
   //puts("hello drimple free");
   ROCC_INSTRUCTION_SS(0, m, 255, 5);//把free的地址传给asan，并写255表示free了
+
   //==== zzguard: end===//
   if (MALLOC_POSTACTION != 0) {
   }
@@ -3910,6 +3940,7 @@ void fREe(mem) Void_t* mem;
       munmap((char*)p - offset, size + offset);
 #endif
     }
+    //zz_unset(mem, size);
   }
 }
 

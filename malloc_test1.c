@@ -1,13 +1,10 @@
-#define __riscv 1
 #include <stdio.h>
 #include "malloc.h"
 #include "rocc.h"
-#include "encoding.h"
 //#include "sys/mman.h"
 
 int main(void)
-{      
-    int cycle;
+{   
     //申请了一块shadow memory
     char *p0;
     p0 = NULL;
@@ -19,31 +16,27 @@ int main(void)
         printf("%x\n",p0);
     }
     ROCC_INSTRUCTION_S(0, p0, 6);
-    
-    //printf("size of int = %d\n", sizeof(int)); 
 
-    
 
-    int *p1;
-    p1 = NULL;
-    p1 = (int *)malloc(sizeof(int)*8);//sizeof(int)=4
+    int* p1 = (int *)malloc(sizeof(int)*16);//sizeof(int)=4, size=64,两个chunk
     printf("%x\n",p1);
 
-    for(int i=0; i<8; i++){
+    for(int i=0; i<16; i++){
         *(p1 + i) = i;
     }
+    // for(int i=0; i<16; i++){
+    //     *(p1 + i) += 1;
+    // }
     for(int i=1; i<=5; i++){
         printf("%d ", *(p1 + i));
     }
+
     
     free(p1);
     p1 = NULL;
-
     //把shadow memory free掉
     shadow_free(p0);
     p0 = NULL;
-    cycle = read_csr(0xb00);
-    printf("cycle:%d\n", cycle);
     return 0;
 }
 

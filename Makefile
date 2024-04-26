@@ -21,11 +21,23 @@ multi_hello.o:multi_hello.c
 multi_hello.riscv:multi_hello.o
 	${gcc64}  -static -specs=htif_nano.specs multi_hello.o -o multi_hello.riscv
 
+gettime.o:gettime.c
+	${gcc64} -fno-common -fno-builtin-printf -specs=htif_nano.specs -c gettime.c
+
+gettime.riscv:gettime.o
+	${gcc64}  -static -specs=htif_nano.specs gettime.o -o gettime.riscv
+
 hello.o:hello.c
 	${gcc64} -fno-common -fno-builtin-printf -specs=htif_nano.specs -c hello.c
 
 hello.riscv:hello.o
 	${gcc64}  -static -specs=htif_nano.specs hello.o -o hello.riscv
+
+malloc_test1.riscv:malloc_test1.o malloc.o
+	${gcc64}  -static -specs=htif_nano.specs malloc_test1.o malloc.o -Wl,--allow-multiple-definition -o malloc_test1.riscv
+
+malloc_test1.o:malloc_test1.c
+	${gcc64} -fno-common -fno-builtin-printf -specs=htif_nano.specs -c malloc_test1.c
 
 malloc_test.riscv:malloc_test.o malloc.o
 	${gcc64}  -static -specs=htif_nano.specs malloc_test.o malloc.o -Wl,--allow-multiple-definition -o malloc_test.riscv

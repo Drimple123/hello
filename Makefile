@@ -27,6 +27,12 @@ gettime.o:gettime.c
 gettime.riscv:gettime.o
 	${gcc64}  -static -specs=htif_nano.specs gettime.o -o gettime.riscv
 
+zz_new_test.o:zz_new_test.c
+	${gcc64} -O3 -fno-common -fno-builtin-printf -specs=htif_nano.specs -c zz_new_test.c
+
+zz_new_test.riscv:zz_new_test.o
+	${gcc64} -O3 -static -specs=htif_nano.specs zz_new_test.o -o zz_new_test.riscv
+
 hello.o:hello.c
 	${gcc64} -fno-common -fno-builtin-printf -specs=htif_nano.specs -c hello.c
 

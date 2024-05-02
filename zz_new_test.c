@@ -46,6 +46,10 @@ static inline unsigned long returnval()
 int main()
 {   
     unsigned long data;
+    //表1初始值清0
+    for(int i=0;i<128;i++){
+        write_table1(i, 0);
+    }
 
     //写第一张表 hammer asan counter ss 
     //jal和jalr，shadow stack要

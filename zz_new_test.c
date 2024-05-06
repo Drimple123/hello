@@ -64,10 +64,10 @@ int main()
 
 
     //写第二张表 0 ss 1 counter 2 asan 3 hammer
-    write_table2(0, 3); //ss mdata和wdata都要
+    write_table2(0, 10); //ss wdata and npc
     write_table2(1, 0); //couonter 两个都不要
-    write_table2(2, 1);//asan要mdata
-    write_table2(3, 1);//hammer要mdata
+    write_table2(2, 4);//asan要mdata
+    write_table2(3, 1);//hammer要req_addr
     start();
     ROCC_INSTRUCTION_S(0, 1234, 6);
     ROCC_INSTRUCTION_SS(0, 12, 34, 5);

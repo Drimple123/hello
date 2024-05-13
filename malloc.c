@@ -233,6 +233,7 @@
 
 //zzguard:start
 #include "rocc.h"
+unsigned char* shadow;
 //zzguard:end
 
 //#define ASAN 1
@@ -1615,8 +1616,11 @@ Void_t* public_mALLOc(size_t bytes) {
   }
   m = mALLOc(bytes);
   //==== zzguard: start===//
-  ROCC_INSTRUCTION_SS(0, m, bytes, 5);//把申请的地址和size传给asan
+  //ROCC_INSTRUCTION_SS(0, m, bytes, 5);//把申请的地址和size传给asan
   //zz_set(m, bytes);
+  unsigned char* start;
+  start = &shadow[((long)m)>>5];
+  *start = bytes;
   //==== zzguard: end===//
   if (MALLOC_POSTACTION != 0) {
   }
@@ -1630,9 +1634,11 @@ Void_t* shadow_mALLOc(size_t bytes) {
     return 0;
   }
   m = mALLOc(bytes);
-  
+  //zzguard:start
+  shadow = m;
+  ROCC_INSTRUCTION_S(0, m, 6);
   //puts("hello drimple shadow_malloc");
-  
+  //zaguard:end
   if (MALLOC_POSTACTION != 0) {
   }
   return m;
@@ -1647,8 +1653,10 @@ void public_fREe(Void_t* m) {
   fREe(m);
   //==== zzguard: start===//
   //puts("hello drimple free");
-  ROCC_INSTRUCTION_SS(0, m, 255, 5);//把free的地址传给asan，并写255表示free了
-
+  //ROCC_INSTRUCTION_SS(0, m, 255, 5);//把free的地址传给asan，并写255表示free了
+  unsigned char* start;
+  start = &shadow[((long)m)>>5];
+  *start = 255;
   //==== zzguard: end===//
   if (MALLOC_POSTACTION != 0) {
   }

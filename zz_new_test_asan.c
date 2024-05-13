@@ -69,10 +69,49 @@ int main()
     write_table2(2, 4);//asan要mdata
     write_table2(3, 1);//hammer要req_addr
     start();
-    ROCC_INSTRUCTION_S(0, 1234, 6);
-    ROCC_INSTRUCTION_SS(0, 12, 34, 6);
 
-    printf("hello\n");
+    //asan的测试
+    //申请了一块shadow memory
+    char *p0;
+    p0 = NULL;
+    p0 = (char *)shadow_malloc(134217744);//128M+16个字节
+    // if(p0 == NULL){
+    //     printf("没成功\n");
+    // }
+    // else{
+    //     printf("%x\n",p0);
+    // }
+    //ROCC_INSTRUCTION_S(0, p0, 6);
+
+    int *p1;
+    p1 = NULL;
+    p1 = (int *)malloc(sizeof(int)*8);//sizeof(int)=4
+    //printf("%x\n",p1);
+    for(int i=0; i<8; i++){
+        *(p1 + i) = i;
+    }
+    // for(int i=0; i<8; i++){
+    //     *(p1 + i) = i + 1;
+    // }
+    // for(int i=0; i<8; i++){
+    //     *(p1 + i) = i + 2;
+    // }
+    // for(int i=0; i<8; i++){
+    //     *(p1 + i) = i + 3;
+    // }
+
+    for(int i=1; i<=5; i++){
+        printf("%d ", *(p1 + i));
+    }
+    //usleep(100);
+    free(p1);
+    p1 = NULL;
+
+    //把shadow memory free掉
+    shadow_free(p0);
+    p0 = NULL;
+
+    //printf("hello\n");
     end();
     return 0;
 
@@ -88,5 +127,42 @@ int main()
 int __main(void)
 {
     while(1){}
+    int a[100];
+    for(int i=0;i<100;i++){
+        a[i] = i;
+    }
+    for(int i=0;i<100;i++){
+        a[i] += 1;
+    }
+    for(int i=0;i<100;i++){
+        a[i] += 2;
+    }
+    for(int i=0;i<100;i++){
+        a[i] = i;
+    }
+    for(int i=0;i<100;i++){
+        a[i] += 1;
+    }
+    for(int i=0;i<100;i++){
+        a[i] += 2;
+    }
+    for(int i=0;i<100;i++){
+        a[i] = i;
+    }
+    for(int i=0;i<100;i++){
+        a[i] += 1;
+    }
+    for(int i=0;i<100;i++){
+        a[i] += 2;
+    }
+    for(int i=0;i<100;i++){
+        a[i] = i;
+    }
+    for(int i=0;i<100;i++){
+        a[i] += 1;
+    }
+    for(int i=0;i<100;i++){
+        a[i] += 2;
+    }
     return 0;
 }

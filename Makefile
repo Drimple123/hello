@@ -55,10 +55,10 @@ malloc.o:malloc.c
 	${gcc64} -O3 -fno-common -fno-builtin-printf -specs=htif_nano.specs -DUSE_PUBLIC_MALLOC_WRAPPERS -c malloc.c 
 
 zz_new_test_asan.o:zz_new_test_asan.c
-	${gcc64} -fno-common -fno-builtin-printf -specs=htif_nano.specs -c zz_new_test_asan.c
+	${gcc64} -O3 -fno-common -fno-builtin-printf -specs=htif_nano.specs -c zz_new_test_asan.c
 
 zz_new_test_asan.riscv:zz_new_test_asan.o malloc.o
-	${gcc64} -static -specs=htif_nano.specs zz_new_test_asan.o malloc.o -Wl,--allow-multiple-definition -o zz_new_test_asan.riscv
+	${gcc64} -O3 -static -specs=htif_nano.specs zz_new_test_asan.o malloc.o -Wl,--allow-multiple-definition -o zz_new_test_asan.riscv
 
 clean:
 	rm *.o

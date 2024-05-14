@@ -85,9 +85,9 @@ int main()
 
     int *p1;
     p1 = NULL;
-    p1 = (int *)malloc(sizeof(int)*8);//sizeof(int)=4
+    p1 = (int *)malloc(sizeof(int)*16);//sizeof(int)=4
     //printf("%x\n",p1);
-    for(int i=0; i<8; i++){
+    for(int i=0; i<16; i++){
         *(p1 + i) = i;
     }
     // for(int i=0; i<8; i++){
@@ -103,6 +103,11 @@ int main()
     for(int i=1; i<=5; i++){
         printf("%d ", *(p1 + i));
     }
+
+    for(int i=8; i<=12; i++){
+        printf("%d ", *(p1 + i));
+    }
+    
     //usleep(100);
     free(p1);
     p1 = NULL;
@@ -127,42 +132,42 @@ int main()
 int __main(void)
 {
     while(1){}
-    int a[100];
-    for(int i=0;i<100;i++){
-        a[i] = i;
-    }
-    for(int i=0;i<100;i++){
-        a[i] += 1;
-    }
-    for(int i=0;i<100;i++){
-        a[i] += 2;
-    }
-    for(int i=0;i<100;i++){
-        a[i] = i;
-    }
-    for(int i=0;i<100;i++){
-        a[i] += 1;
-    }
-    for(int i=0;i<100;i++){
-        a[i] += 2;
-    }
-    for(int i=0;i<100;i++){
-        a[i] = i;
-    }
-    for(int i=0;i<100;i++){
-        a[i] += 1;
-    }
-    for(int i=0;i<100;i++){
-        a[i] += 2;
-    }
-    for(int i=0;i<100;i++){
-        a[i] = i;
-    }
-    for(int i=0;i<100;i++){
-        a[i] += 1;
-    }
-    for(int i=0;i<100;i++){
-        a[i] += 2;
-    }
+    // int a[100];
+    // for(int i=0;i<100;i++){
+    //     a[i] = i;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] += 1;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] += 2;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] = i;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] += 1;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] += 2;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] = i;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] += 1;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] += 2;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] = i;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] += 1;
+    // }
+    // for(int i=0;i<100;i++){
+    //     a[i] += 2;
+    // }
     return 0;
 }

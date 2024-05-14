@@ -579,6 +579,7 @@ extern "C" {
 #define shadow_fREe   shadow_free
 Void_t* shadow_mALLOc(size_t);
 void    shadow_fREe(Void_t*);
+void    fREe_zz(void* mem);
 //zzguard:end
 /*
   HAVE_MEMCPY should be defined if you are not otherwise using
@@ -1583,29 +1584,35 @@ static pthread_mutex_t mALLOC_MUTEx = PTHREAD_MUTEX_INITIALIZER;
 #endif
 
 
-void zz_set(Void_t* start, size_t bytes){
+void zz_set(Void_t* m, size_t bytes){
   int a,b;
   a = bytes / 32;
   b = bytes % 32;
+  unsigned char* start = &shadow[((long)m)>>5];
   for(int i=0; i<a; i=i+1){
-    ROCC_INSTRUCTION_SS(0, start + i*32, 32, 5)
+    //ROCC_INSTRUCTION_SS(0, start + i*32, 32, 5)
+    *(start+i)=32;
   }
   if(b == 0){}
   else{
-    ROCC_INSTRUCTION_SS(0, start + a*32, b, 5)
+    //ROCC_INSTRUCTION_SS(0, start + a*32, b, 5)
+    *(start+a)=bytes;
   }
 }
 
-void zz_unset(Void_t* start, size_t bytes){
+void zz_unset(Void_t* m, size_t bytes){
   int a,b;
   a = bytes / 32;
   b = bytes % 32;
+  unsigned char* start = &shadow[((long)m)>>5];
   for(int i=0; i<a; i=i+1){
-    ROCC_INSTRUCTION_SS(0, start + i*32, 255, 5)
+    //ROCC_INSTRUCTION_SS(0, start + i*32, 255, 5)
+    *(start+i)=255;
   }
   if(b == 0){}
   else{
-    ROCC_INSTRUCTION_SS(0, start + a*32, 255, 5)
+    //ROCC_INSTRUCTION_SS(0, start + a*32, 255, 5)
+    *(start+a)=255;
   }
 }
 
@@ -1617,10 +1624,10 @@ Void_t* public_mALLOc(size_t bytes) {
   m = mALLOc(bytes);
   //==== zzguard: start===//
   //ROCC_INSTRUCTION_SS(0, m, bytes, 5);//把申请的地址和size传给asan
-  //zz_set(m, bytes);
-  unsigned char* start;
-  start = &shadow[((long)m)>>5];
-  *start = bytes;
+  zz_set(m, bytes);
+  // unsigned char* start;
+  // start = &shadow[((long)m)>>5];
+  // *start = bytes;
   //==== zzguard: end===//
   if (MALLOC_POSTACTION != 0) {
   }
@@ -1636,7 +1643,7 @@ Void_t* shadow_mALLOc(size_t bytes) {
   m = mALLOc(bytes);
   //zzguard:start
   shadow = m;
-  ROCC_INSTRUCTION_S(0, m, 6);
+  ROCC_INSTRUCTION_S(0, m, 6);//把shadow_mem的地址传给asan作为偏移
   //puts("hello drimple shadow_malloc");
   //zaguard:end
   if (MALLOC_POSTACTION != 0) {
@@ -1654,9 +1661,9 @@ void public_fREe(Void_t* m) {
   //==== zzguard: start===//
   //puts("hello drimple free");
   //ROCC_INSTRUCTION_SS(0, m, 255, 5);//把free的地址传给asan，并写255表示free了
-  unsigned char* start;
-  start = &shadow[((long)m)>>5];
-  *start = 255;
+  // unsigned char* start;
+  // start = &shadow[((long)m)>>5];
+  // *start = 255;
   //==== zzguard: end===//
   if (MALLOC_POSTACTION != 0) {
   }
@@ -1670,7 +1677,7 @@ void shadow_fREe(Void_t* m) {
   
   //puts("hello drimple shadow_free");
   
-  fREe(m);
+  fREe_zz(m);
   if (MALLOC_POSTACTION != 0) {
   }
 }
@@ -3948,7 +3955,158 @@ void fREe(mem) Void_t* mem;
       munmap((char*)p - offset, size + offset);
 #endif
     }
-    //zz_unset(mem, size);
+    zz_unset(mem, size);
+  }
+}
+
+#if __STD_C
+void fREe_zz(Void_t* mem)
+#else
+void fREe_zz(mem) Void_t* mem;
+#endif
+{
+  mstate av = get_malloc_state();
+
+  mchunkptr       p;           /* chunk corresponding to mem */
+  INTERNAL_SIZE_T size;        /* its size */
+  mfastbinptr*    fb;          /* associated fastbin */
+  mchunkptr       nextchunk;   /* next contiguous chunk */
+  INTERNAL_SIZE_T nextsize;    /* its size */
+  int             nextinuse;   /* true if nextchunk is used */
+  INTERNAL_SIZE_T prevsize;    /* size of previous contiguous chunk */
+  mchunkptr       bck;         /* misc temp for linking */
+  mchunkptr       fwd;         /* misc temp for linking */
+
+  /* free(0) has no effect */
+  if (mem != 0) {
+    p = mem2chunk(mem);
+    size = chunksize(p);
+
+    check_inuse_chunk(p);
+
+    /*
+      If eligible, place chunk on a fastbin so it can be found
+      and used quickly in malloc.
+    */
+
+    if ((CHUNK_SIZE_T)(size) <= (CHUNK_SIZE_T)(av->max_fast)
+
+#if TRIM_FASTBINS
+        /* 
+           If TRIM_FASTBINS set, don't place chunks
+           bordering top into fastbins
+        */
+        && (chunk_at_offset(p, size) != av->top)
+#endif
+        ) {
+
+      set_fastchunks(av);
+      fb = &(av->fastbins[fastbin_index(size)]);
+      p->fd = *fb;
+      *fb = p;
+    }
+
+    /*
+       Consolidate other non-mmapped chunks as they arrive.
+    */
+
+    else if (!chunk_is_mmapped(p)) {
+      set_anychunks(av);
+
+      nextchunk = chunk_at_offset(p, size);
+      nextsize = chunksize(nextchunk);
+
+      /* consolidate backward */
+      if (!prev_inuse(p)) {
+        prevsize = p->prev_size;
+        size += prevsize;
+        p = chunk_at_offset(p, -((long) prevsize));
+        unlink(p, bck, fwd);
+      }
+
+      if (nextchunk != av->top) {
+        /* get and clear inuse bit */
+        nextinuse = inuse_bit_at_offset(nextchunk, nextsize);
+        set_head(nextchunk, nextsize);
+
+        /* consolidate forward */
+        if (!nextinuse) {
+          unlink(nextchunk, bck, fwd);
+          size += nextsize;
+        }
+
+        /*
+          Place the chunk in unsorted chunk list. Chunks are
+          not placed into regular bins until after they have
+          been given one chance to be used in malloc.
+        */
+
+        bck = unsorted_chunks(av);
+        fwd = bck->fd;
+        p->bk = bck;
+        p->fd = fwd;
+        bck->fd = p;
+        fwd->bk = p;
+
+        set_head(p, size | PREV_INUSE);
+        set_foot(p, size);
+        
+        check_free_chunk(p);
+      }
+
+      /*
+         If the chunk borders the current high end of memory,
+         consolidate into top
+      */
+
+      else {
+        size += nextsize;
+        set_head(p, size | PREV_INUSE);
+        av->top = p;
+        check_chunk(p);
+      }
+
+      /*
+        If freeing a large space, consolidate possibly-surrounding
+        chunks. Then, if the total unused topmost memory exceeds trim
+        threshold, ask malloc_trim to reduce top.
+
+        Unless max_fast is 0, we don't know if there are fastbins
+        bordering top, so we cannot tell for sure whether threshold
+        has been reached unless fastbins are consolidated.  But we
+        don't want to consolidate on each free.  As a compromise,
+        consolidation is performed if FASTBIN_CONSOLIDATION_THRESHOLD
+        is reached.
+      */
+
+      if ((CHUNK_SIZE_T)(size) >= FASTBIN_CONSOLIDATION_THRESHOLD) { 
+        if (have_fastchunks(av)) 
+          malloc_consolidate(av);
+
+#ifndef MORECORE_CANNOT_TRIM        
+        if ((CHUNK_SIZE_T)(chunksize(av->top)) >= 
+            (CHUNK_SIZE_T)(av->trim_threshold))
+          sYSTRIm(av->top_pad, av);
+#endif
+      }
+
+    }
+    /*
+      If the chunk was allocated via mmap, release via munmap()
+      Note that if HAVE_MMAP is false but chunk_is_mmapped is
+      true, then user must have overwritten memory. There's nothing
+      we can do to catch this error unless DL_DEBUG is set, in which case
+      check_inuse_chunk (above) will have triggered error.
+    */
+
+    else {
+#if HAVE_MMAP
+      INTERNAL_SIZE_T offset = p->prev_size;
+      av->n_mmaps--;
+      av->mmapped_mem -= (size + offset);
+      munmap((char*)p - offset, size + offset);
+#endif
+    }
   }
 }
 

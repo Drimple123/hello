@@ -60,6 +60,12 @@ zz_new_test_asan.o:zz_new_test_asan.c
 zz_new_test_asan.riscv:zz_new_test_asan.o malloc.o
 	${gcc64} -O3 -static -specs=htif_nano.specs zz_new_test_asan.o malloc.o -Wl,--allow-multiple-definition -o zz_new_test_asan.riscv
 
+core_test.o:core_test.c
+	${gcc64} -O3 -fno-common -fno-builtin-printf -specs=htif_nano.specs -c core_test.c
+
+core_test:core_test.o malloc.o
+	${gcc64} -O3 -static -specs=htif_nano.specs core_test.o malloc.o -Wl,--allow-multiple-definition -o core_test.riscv -lm
+
 clean:
 	rm *.o
 	rm *.riscv

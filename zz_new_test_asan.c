@@ -61,8 +61,8 @@ int main()
     //load和store， asan和hammer要
     // write_table1(0b0100011, 12);
     // write_table1(0b0000011, 12);
-    //write_table1(0b0100011, 4);
-    //write_table1(0b0000011, 4);
+    write_table1(0b0100011, 4);
+    write_table1(0b0000011, 4);
 
     //算术和逻辑指令，custom counter要
    // write_table1(0b0010011, 2);
@@ -74,7 +74,7 @@ int main()
     write_table2(2, 4);//asan要mdata
     write_table2(3, 1);//hammer要req_addr
     start();
-    cycle_start = read_csr(0xb00);
+    //cycle_start = read_csr(0xb00);
 
     //asan的测试
     //申请了一块shadow memory
@@ -100,24 +100,24 @@ int main()
         printf("%d ", *(p1 + i));
     }
 
-    for(int i=8; i<=12; i++){
-        printf("%d ", *(p1 + i));
-    }
-    printf("\n");
-    for(int i=0; i<16; i++){
-        *(p1 + i) = i + 1;
-    }
-    for(int i=1; i<=5; i++){
-        printf("%d ", *(p1 + i));
-    }
+    // for(int i=8; i<=12; i++){
+    //     printf("%d ", *(p1 + i));
+    // }
+    // printf("\n");
+    // for(int i=0; i<16; i++){
+    //     *(p1 + i) = i + 1;
+    // }
+    // for(int i=1; i<=5; i++){
+    //     printf("%d ", *(p1 + i));
+    // }
 
-    for(int i=8; i<=12; i++){
-        printf("%d ", *(p1 + i));
-    }
-    printf("\n");
-     for(int i=0; i<16; i++){
-        *(p1 + i) = i + 2;
-    }
+    // for(int i=8; i<=12; i++){
+    //     printf("%d ", *(p1 + i));
+    // }
+    // printf("\n");
+    //  for(int i=0; i<16; i++){
+    //     *(p1 + i) = i + 2;
+    // }
     
     // for(int i=0; i<8; i++){
     //     *(p1 + i) = i + 1;
@@ -129,27 +129,27 @@ int main()
     //     *(p1 + i) = i + 3;
     // }
 
-    for(int i=1; i<=5; i++){
-        printf("%d ", *(p1 + i));
-    }
+    // for(int i=1; i<=5; i++){
+    //     printf("%d ", *(p1 + i));
+    // }
 
-    for(int i=8; i<=12; i++){
-        printf("%d ", *(p1 + i));
-    }
-    printf("\n");
+    // for(int i=8; i<=12; i++){
+    //     printf("%d ", *(p1 + i));
+    // }
+    // printf("\n");
     
     //usleep(100);
     free(p1);
     p1 = NULL;
-    cycle_end = read_csr(0xb00);
+    //cycle_end = read_csr(0xb00);
     //把shadow memory free掉
     shadow_free(p0);
     p0 = NULL;
 
     //printf("hello\n");
     end();
-    cycle_end = read_csr(0xb00);
-    printf("cycle_start: %d cycle_end: %d  cycle: %d\n", cycle_start, cycle_end, (cycle_end - cycle_start));
+    // cycle_end = read_csr(0xb00);
+    // printf("cycle_start: %d cycle_end: %d  cycle: %d\n", cycle_start, cycle_end, (cycle_end - cycle_start));
     return 0;
 
     //read_table1(0b1101111);

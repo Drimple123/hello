@@ -9,6 +9,8 @@
 #define NUM_ITERATIONS 1000
 
 
+volatile int b=0;
+
 static inline void write_table1(int addr, int data)
 {
 	//asm volatile ("fence");
@@ -41,7 +43,7 @@ void integer_test() {
         a -= i;
         a /= 2;
     }
-    printf("Integer test result: %d\n", a);
+    //printf("Integer test result: %d\n", a);
 }
 
 // 浮点运算测试
@@ -97,16 +99,20 @@ int main() {
     //load和store， asan和hammer要
     // write_table1(0b0100011, 12);
     // write_table1(0b0000011, 12);
-    // write_table1(0b0100011, 4);
-    // write_table1(0b0000011, 4);
+    write_table1(0b0100011, 4);
+    write_table1(0b0000011, 4);
     //write_table1(0b0100011, 8);
     //write_table1(0b0000011, 8);
 
     //算术和逻辑指令，custom counter要
-    //write_table1(0b0010011, 2);
+    // write_table1(0b0010011, 2);
+    // write_table1(0b0111011, 2);
+    // write_table1(0b0011011, 2);
+
+
     //custom counter要个访存指令看看效果
-    write_table1(0b0100011, 2);
-    write_table1(0b0000011, 2);
+    // write_table1(0b0100011, 2);
+    // write_table1(0b0000011, 2);
 
 
     //写第二张表 0 ss 1 counter 2 asan 3 hammer
@@ -121,11 +127,11 @@ int main() {
     //double start_time, end_time;
 
     // 整数运算测试
-    cycle_start = read_csr(0xb00);
-    integer_test();
-    cycle_end = read_csr(0xb00);
-    //end_time = get_time();
-    printf("Integer test cycle: %d cycles\n", cycle_end - cycle_start);
+    // cycle_start = read_csr(0xb00);
+    // integer_test();
+    // cycle_end = read_csr(0xb00);
+    // //end_time = get_time();
+    // printf("Integer test cycle: %d cycles\n", cycle_end - cycle_start);
 
     // 浮点运算测试
     //start_time = get_time();
@@ -150,5 +156,12 @@ int main() {
 
 int __main(){
     while(1){}
+    // volatile int a;
+    // for(int i=0;i<NUM_ITERATIONS*10;i++){
+
+    //     a  = 1;
+    //     a += 1;
+    //     a -= 1;
+    // }
     return 0;
 }

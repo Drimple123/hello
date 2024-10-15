@@ -1,0 +1,1050 @@
+由于文件 (符号) 而包含了归档成员
+
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-errno.o)
+                              malloc.o (__errno)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o)
+                              malloc.o (fprintf)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+                              malloc.o (_impure_ptr)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memcpy-asm.o)
+                              malloc.o (memcpy)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memset.o)
+                              malloc.o (memset)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o) (_vfprintf_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-printf.o)
+                              asan_test.o (printf)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-puts.o)
+                              malloc.o (puts)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-syssbrk.o)
+                              malloc.o (sbrk)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o) (__swsetup_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o) (_fflush_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o) (__sinit)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fwalk.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o) (_fwalk)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memchr.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o) (memchr)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memmove.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o) (memmove)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-freer.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o) (_free_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o) (_malloc_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-reallocr.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o) (_realloc_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-syssbrk.o) (_sbrk_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o) (__sread)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-writer.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o) (_write_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-closer.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o) (_close_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fstatr.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o) (_fstat_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-isattyr.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o) (_isatty_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-lseekr.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o) (_lseek_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-mlock.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-msizer.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-readr.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o) (_read_r)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o) (errno)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-closer.o) (_close)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fstatr.o) (_fstat)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-isattyr.o) (_isatty)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-lseekr.o) (_lseek)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-readr.o) (_read)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o) (_sbrk)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-writer.o) (_write)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+                              (_start)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o) (_start_main)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o) (handle_trap)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o) (__init_tls)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o) (htif_syscall)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o) (_exit)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-atexit.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o) (atexit)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-environ.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o) (environ)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-exit.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o) (exit)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fini.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o) (__libc_fini_array)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-init.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o) (__libc_init_array)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-atexit.o) (__register_exitproc)
+/home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__call_atexit.o)
+                              /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o) (__call_exitprocs)
+
+内存配置
+
+名称           来源             长度             属性
+*default*        0x0000000000000000 0xffffffffffffffff
+
+链结器命令稿和内存映射
+
+LOAD asan_test.o
+LOAD malloc.o
+LOAD /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/libgcc.a
+LOAD /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a
+LOAD /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/libgcc.a
+START GROUP
+LOAD /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/libgcc.a
+LOAD /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a
+LOAD /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a
+END GROUP
+                0x0000000080000000                . = 0x80000000
+                0x0000000000006000                PROVIDE (__stack_size_min = 0x6000)
+
+.text           0x0000000080000000     0x38d6
+ *(.text.init)
+ .text.init     0x0000000080000000      0x1ea /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+                0x0000000080000000                _start
+ .text.init     0x00000000800001ea       0x42 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+                0x00000000800001ea                _start_main
+                0x000000008000020a                _start_secondary
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x000000008000022c       0xe4 asan_test.o
+                0x000000008000022c                main
+ *(.text .text.*)
+ .text          0x0000000080000310        0x2 asan_test.o
+                0x0000000080000310                __main
+ .text          0x0000000080000312     0x19e0 malloc.o
+                0x0000000080000cfe                zz_set
+                0x0000000080000d2a                zz_unset
+                0x0000000080000d58                malloc
+                0x0000000080000d94                shadow_malloc
+                0x0000000080000dac                free
+                0x0000000080000ed4                shadow_free
+                0x0000000080000fd0                realloc
+                0x0000000080001152                memalign
+                0x00000000800012a4                valloc
+                0x0000000080001422                pvalloc
+                0x00000000800015b6                calloc
+                0x0000000080001636                independent_calloc
+                0x0000000080001766                independent_comalloc
+                0x00000000800018c8                cfree
+                0x0000000080001a04                malloc_trim
+                0x0000000080001a98                malloc_usable_size
+                0x0000000080001ac8                malloc_stats
+                0x0000000080001b20                mallinfo
+                0x0000000080001b68                mallopt
+                0x0000000080001bf6                fREe_zz
+ .text          0x0000000080001cf2        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-errno.o)
+ .text.__errno  0x0000000080001cf2        0xa /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-errno.o)
+                0x0000000080001cf2                __errno
+ .text          0x0000000080001cfc        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o)
+ .text._fprintf_r
+                0x0000000080001cfc       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o)
+                0x0000000080001cfc                _fprintf_r
+                0x0000000080001cfc                _fiprintf_r
+ .text.fprintf  0x0000000080001d18       0x2a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o)
+                0x0000000080001d18                fprintf
+                0x0000000080001d18                fiprintf
+ .text          0x0000000080001d42        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000080001d42       0x16 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memcpy-asm.o)
+                0x0000000080001d42                memcpy
+ .text          0x0000000080001d58       0x10 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memset.o)
+                0x0000000080001d58                memset
+ .text          0x0000000080001d68        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputc_r
+                0x0000000080001d68       0x2a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x0000000080001d92       0x44 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000080001d92                __sfputs_r
+ .text.__sprint_r
+                0x0000000080001dd6       0x24 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000080001dd6                __sprint_r
+ .text._vfprintf_r
+                0x0000000080001dfa      0x2ae /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000080001dfa                _vfiprintf_r
+                0x0000000080001dfa                _vfprintf_r
+ .text.vfprintf
+                0x00000000800020a8       0x10 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000800020a8                vfiprintf
+                0x00000000800020a8                vfprintf
+ .text          0x00000000800020b8        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x00000000800020b8       0x3a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-printf.o)
+                0x00000000800020b8                _printf_r
+                0x00000000800020b8                _iprintf_r
+ .text.printf   0x00000000800020f2       0x40 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-printf.o)
+                0x00000000800020f2                printf
+                0x00000000800020f2                iprintf
+ .text          0x0000000080002132        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-puts.o)
+ .text._puts_r  0x0000000080002132       0xf4 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-puts.o)
+                0x0000000080002132                _puts_r
+ .text.puts     0x0000000080002226        0xc /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-puts.o)
+                0x0000000080002226                puts
+ .text          0x0000000080002232        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-syssbrk.o)
+ .text.sbrk     0x0000000080002232        0xe /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-syssbrk.o)
+                0x0000000080002232                sbrk
+ .text          0x0000000080002240        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o)
+ .text.__swbuf_r
+                0x0000000080002240       0xc6 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o)
+                0x0000000080002240                __swbuf_r
+ .text.__swbuf  0x0000000080002306        0xe /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o)
+                0x0000000080002306                __swbuf
+ .text          0x0000000080002314        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o)
+ .text.__swsetup_r
+                0x0000000080002314      0x104 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o)
+                0x0000000080002314                __swsetup_r
+ .text          0x0000000080002418        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+ .text.__sflush_r
+                0x0000000080002418      0x13a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+                0x0000000080002418                __sflush_r
+ .text._fflush_r
+                0x0000000080002552       0x66 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+                0x0000000080002552                _fflush_r
+ .text.fflush   0x00000000800025b8       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+                0x00000000800025b8                fflush
+ .text          0x00000000800025d4        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000800025d4        0x4 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+ .text.std      0x00000000800025d8       0x66 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x000000008000263e        0xa /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x000000008000263e                _cleanup_r
+ .text.__fp_unlock
+                0x0000000080002648        0x4 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x000000008000264c       0x48 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x000000008000264c                __sfmoreglue
+ .text._cleanup
+                0x0000000080002694        0x6 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x0000000080002694                _cleanup
+ .text.__sinit  0x000000008000269a       0x72 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x000000008000269a                __sinit
+ .text.__sfp    0x000000008000270c       0x9a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x000000008000270c                __sfp
+ .text.__sfp_lock_acquire
+                0x00000000800027a6        0x2 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x00000000800027a6                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x00000000800027a8        0x2 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x00000000800027a8                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0x00000000800027aa        0x2 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x00000000800027aa                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0x00000000800027ac        0x2 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x00000000800027ac                __sinit_lock_release
+ .text.__fp_lock_all
+                0x00000000800027ae       0x12 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x00000000800027ae                __fp_lock_all
+ .text.__fp_unlock_all
+                0x00000000800027c0       0x12 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x00000000800027c0                __fp_unlock_all
+ .text          0x00000000800027d2        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x00000000800027d2      0x2da /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o)
+                0x00000000800027d2                __sfvwrite_r
+ .text          0x0000000080002aac        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000080002aac       0x64 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fwalk.o)
+                0x0000000080002aac                _fwalk
+ .text._fwalk_reent
+                0x0000000080002b10       0x6c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fwalk.o)
+                0x0000000080002b10                _fwalk_reent
+ .text          0x0000000080002b7c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o)
+ .text.__swhatbuf_r
+                0x0000000080002b7c       0x5c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o)
+                0x0000000080002b7c                __swhatbuf_r
+ .text.__smakebuf_r
+                0x0000000080002bd8       0xa8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o)
+                0x0000000080002bd8                __smakebuf_r
+ .text          0x0000000080002c80        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memchr.o)
+ .text.memchr   0x0000000080002c80       0x1a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memchr.o)
+                0x0000000080002c80                memchr
+ .text          0x0000000080002c9a       0x26 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memmove.o)
+                0x0000000080002c9a                memmove
+ .text          0x0000000080002cc0        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x0000000080002cc0       0xa0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000080002cc0                _free_r
+ .text          0x0000000080002d60        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x0000000080002d60       0xe6 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000080002d60                _malloc_r
+ .text          0x0000000080002e46        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x0000000080002e46       0x7c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000080002e46                _realloc_r
+ .text          0x0000000080002ec2        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_common
+                0x0000000080002ec2      0x11e /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000080002ec2                _printf_common
+ .text._printf_i
+                0x0000000080002fe0      0x2a0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000080002fe0                _printf_i
+ .text          0x0000000080003280        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000080003280       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000080003280                _sbrk_r
+ .text          0x00000000800032a8        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+ .text.__sread  0x00000000800032a8       0x32 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+                0x00000000800032a8                __sread
+ .text.__seofread
+                0x00000000800032da        0x4 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+                0x00000000800032da                __seofread
+ .text.__swrite
+                0x00000000800032de       0x50 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+                0x00000000800032de                __swrite
+ .text.__sseek  0x000000008000332e       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+                0x000000008000332e                __sseek
+ .text.__sclose
+                0x0000000080003366        0x6 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+                0x0000000080003366                __sclose
+ .text          0x000000008000336c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-writer.o)
+ .text._write_r
+                0x000000008000336c       0x2c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-writer.o)
+                0x000000008000336c                _write_r
+ .text          0x0000000080003398        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-closer.o)
+ .text._close_r
+                0x0000000080003398       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-closer.o)
+                0x0000000080003398                _close_r
+ .text          0x00000000800033c0        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fstatr.o)
+ .text._fstat_r
+                0x00000000800033c0       0x2a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fstatr.o)
+                0x00000000800033c0                _fstat_r
+ .text          0x00000000800033ea        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-isattyr.o)
+ .text._isatty_r
+                0x00000000800033ea       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-isattyr.o)
+                0x00000000800033ea                _isatty_r
+ .text          0x0000000080003412        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-lseekr.o)
+ .text._lseek_r
+                0x0000000080003412       0x2c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-lseekr.o)
+                0x0000000080003412                _lseek_r
+ .text          0x000000008000343e        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x000000008000343e        0x2 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-mlock.o)
+                0x000000008000343e                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000080003440        0x2 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-mlock.o)
+                0x0000000080003440                __malloc_unlock
+ .text          0x0000000080003442        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x0000000080003442       0x18 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-msizer.o)
+                0x0000000080003442                _malloc_usable_size_r
+ .text          0x000000008000345a        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-readr.o)
+ .text._read_r  0x000000008000345a       0x2c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-readr.o)
+                0x000000008000345a                _read_r
+ .text          0x0000000080003486        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000080003486       0x24 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+                0x0000000080003486                cleanup_glue
+ .text._reclaim_reent
+                0x00000000800034aa       0xda /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+                0x00000000800034aa                _reclaim_reent
+ .text          0x0000000080003584       0x14 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+                0x0000000080003584                _close
+ .text          0x0000000080003598       0x14 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+                0x0000000080003598                _fstat
+ .text          0x00000000800035ac        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+                0x00000000800035ac                _isatty
+ .text          0x00000000800035b4       0x14 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+                0x00000000800035b4                _lseek
+ .text          0x00000000800035c8       0x16 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+                0x00000000800035c8                _read
+ .text          0x00000000800035de       0x3c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+                0x00000000800035de                _sbrk
+ .text          0x000000008000361a        0x6 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+                0x000000008000361a                _write
+ .text          0x0000000080003620        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .text          0x0000000080003620        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ .text          0x0000000080003620       0x16 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+                0x0000000080003620                handle_trap
+ .text          0x0000000080003636       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+                0x0000000080003636                __init_tls
+ .text          0x0000000080003666       0x4a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+                0x0000000080003666                htif_syscall
+ .text          0x00000000800036b0       0x22 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+                0x00000000800036b0                _exit
+ .text          0x00000000800036d2        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-atexit.o)
+ .text.atexit   0x00000000800036d2        0xa /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-atexit.o)
+                0x00000000800036d2                atexit
+ .text          0x00000000800036dc        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-environ.o)
+ .text          0x00000000800036dc        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000800036dc       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-exit.o)
+                0x00000000800036dc                exit
+ .text          0x0000000080003704        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x0000000080003704       0x36 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fini.o)
+                0x0000000080003704                __libc_fini_array
+ .text          0x000000008000373a        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x000000008000373a       0x5e /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-init.o)
+                0x000000008000373a                __libc_init_array
+ .text          0x0000000080003798        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000000080003798       0x76 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+                0x0000000080003798                __register_exitproc
+ .text          0x000000008000380e        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x000000008000380e       0xc8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__call_atexit.o)
+                0x000000008000380e                __call_exitprocs
+ *(.gnu.linkonce.t.*)
+                [!provide]                        PROVIDE (_etext = .)
+
+.tdata          0x00000000800038d6        0x0
+                0x00000000800038d6                PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.*)
+ *(.gnu.linkonce.td.*)
+                [!provide]                        PROVIDE (__tdata_end = .)
+                0x0000000000000000                PROVIDE (__tdata_size = SIZEOF (.tdata))
+
+.tbss           0x00000000800038d6        0x0
+                0x00000000800038d6                PROVIDE (__tbss_start = .)
+                0x0000000000000000                PROVIDE (__tbss_offset = ABSOLUTE ((__tbss_start - __tdata_start)))
+ *(.tbss .tbss.*)
+ *(.gnu.linkonce.tb.*)
+ *(.tcommon)
+                0x00000000800038d6                PROVIDE (__tbss_end = .)
+                0x0000000000000000                PROVIDE (__tbss_size = SIZEOF (.tbss))
+
+.rodata         0x00000000800038d8      0x201
+ *(.rodata .rodata.*)
+ .rodata.str1.8
+                0x00000000800038d8        0xc asan_test.o
+ *fill*         0x00000000800038e4        0x4 
+ .rodata.str1.8
+                0x00000000800038e8       0x72 malloc.o
+ *fill*         0x000000008000395a        0x2 
+ .rodata        0x000000008000395c       0x18 malloc.o
+ *fill*         0x0000000080003974        0x4 
+ .rodata._vfprintf_r.str1.8
+                0x0000000080003978       0x17 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+ *fill*         0x000000008000398f        0x1 
+ .rodata.__sf_fake_stderr
+                0x0000000080003990       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x0000000080003990                __sf_fake_stderr
+ .rodata.__sf_fake_stdout
+                0x00000000800039c8       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x00000000800039c8                __sf_fake_stdout
+ .rodata.__sf_fake_stdin
+                0x0000000080003a00       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x0000000080003a00                __sf_fake_stdin
+ .rodata._printf_i.str1.8
+                0x0000000080003a38       0x29 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ *fill*         0x0000000080003a61        0x3 
+ .rodata._printf_i
+                0x0000000080003a64       0x58 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ *fill*         0x0000000080003abc        0x4 
+ .rodata        0x0000000080003ac0       0x19 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ *(.gnu.linkonce.r.*)
+
+.eh_frame       0x0000000080003ae0       0x28
+ .eh_frame      0x0000000080003ae0       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+
+.rela.dyn       0x0000000080003b08        0x0
+ .rela.text._vfprintf_r
+                0x0000000080003b08        0x0 asan_test.o
+ .rela.text     0x0000000080003b08        0x0 asan_test.o
+ .rela.sdata    0x0000000080003b08        0x0 asan_test.o
+ .rela.text.init
+                0x0000000080003b08        0x0 asan_test.o
+ .rela.text.__libc_fini_array
+                0x0000000080003b08        0x0 asan_test.o
+ .rela.text.__libc_init_array
+                0x0000000080003b08        0x0 asan_test.o
+ .rela.text.__register_exitproc
+                0x0000000080003b08        0x0 asan_test.o
+
+.preinit_array  0x0000000080003b08        0x0
+                0x0000000080003b08                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000080003b08                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000080003b08        0x0
+                0x0000000080003b08                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                0x0000000080003b08                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000080003b08        0x0
+                0x0000000080003b08                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                0x0000000080003b08                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.htif           0x0000000080003b40       0x10
+ *(.htif)
+ .htif          0x0000000080003b40       0x10 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+                0x0000000080003b40                tohost
+                0x0000000080003b48                fromhost
+
+.data           0x0000000080003b50        0x0
+ *(.data)
+ .data          0x0000000080003b50        0x0 asan_test.o
+ .data          0x0000000080003b50        0x0 malloc.o
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-errno.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memcpy-asm.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-printf.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-puts.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-syssbrk.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fwalk.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memchr.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memmove.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-writer.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-closer.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fstatr.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-isattyr.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-lseekr.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-mlock.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-readr.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-atexit.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-environ.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fini.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-init.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+ .data          0x0000000080003b50        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__call_atexit.o)
+ *(.gnu.linkonce.d.*)
+
+.data.impure_data
+                0x0000000080003b50       0xb0
+ .data.impure_data
+                0x0000000080003b50       0xb0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+
+.sdata          0x0000000080003c00       0x28
+                0x0000000080004400                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata._impure_ptr
+                0x0000000080003c00        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+                0x0000000080003c00                _impure_ptr
+ .sdata         0x0000000080003c08        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .sdata.environ
+                0x0000000080003c10        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-environ.o)
+                0x0000000080003c10                environ
+ .sdata.__atexit_dummy
+                0x0000000080003c18        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+                0x0000000080003c18                __atexit_dummy
+ *(.gnu.linkonce.s.*)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+ .srodata._global_impure_ptr
+                0x0000000080003c20        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+                0x0000000080003c20                _global_impure_ptr
+                [!provide]                        PROVIDE (_edata = .)
+
+.bss            0x0000000080003c28      0x830
+                0x0000000080003c28                PROVIDE (__bss_start = .)
+ *(.sbss .sbss.*)
+ .sbss          0x0000000080003c28        0x8 malloc.o
+                0x0000000080003c28                shadow
+ .sbss.__malloc_sbrk_start
+                0x0000000080003c30        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000080003c30                __malloc_sbrk_start
+ .sbss.__malloc_free_list
+                0x0000000080003c38        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000080003c38                __malloc_free_list
+ .sbss.errno    0x0000000080003c40        0x4 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+                0x0000000080003c40                errno
+ *fill*         0x0000000080003c44        0x4 
+ .sbss          0x0000000080003c48        0x4 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ *fill*         0x0000000080003c4c        0x4 
+ .sbss.initial_env
+                0x0000000080003c50        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-environ.o)
+ .sbss._global_atexit
+                0x0000000080003c58        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__call_atexit.o)
+                0x0000000080003c58                _global_atexit
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ .bss           0x0000000080003c60        0x0 asan_test.o
+ .bss           0x0000000080003c60      0x6d8 malloc.o
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-errno.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memcpy-asm.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-printf.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-puts.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-syssbrk.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memchr.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memmove.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-writer.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-closer.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-mlock.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-readr.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .bss           0x0000000080004338        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .bss           0x0000000080004338        0x4 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-atexit.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-environ.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-exit.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fini.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-init.o)
+ .bss           0x000000008000433c        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+ *fill*         0x000000008000433c        0x4 
+ .bss._global_atexit0
+                0x0000000080004340      0x118 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+ .bss           0x0000000080004458        0x0 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__call_atexit.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x0000000080004458                PROVIDE (__bss_end = .)
+                0x0000000080004458                . = ALIGN (0x8)
+                0x0000000080004458                PROVIDE (_end = .)
+                0x0000000000020000                PROVIDE (__heap_size = 0x20000)
+                0x0000000080024458                . = (. + __heap_size)
+                0x0000000080025000                . = ALIGN (0x1000)
+                0x0000000080025000                PROVIDE (__heap_end = .)
+                0x0000000000000000                PROVIDE (__tcb_size = (__tbss_end - __tdata_start))
+                0x0000000000000010                PROVIDE (__stack_align = MAX (ALIGNOF (.tdata), 0x10))
+                0x0000000080025000                PROVIDE (__stack_start = ALIGN (__stack_align))
+                0x000000000000000f                PROVIDE (__stack_shift = LOG2CEIL (ALIGN ((__stack_size_min + __tcb_size), __stack_align)))
+                0x0000000000008000                PROVIDE (__stack_size = (0x1 << __stack_shift))
+                0x0000000000000000                PROVIDE (__boot_hart = 0x0)
+OUTPUT(asan_test.riscv elf64-littleriscv)
+
+.comment        0x0000000000000000       0x2d
+ .comment       0x0000000000000000       0x1b asan_test.o
+                                         0x1c (松开之前的大小)
+ .comment       0x000000000000001b       0x1c malloc.o
+ .comment       0x000000000000001b       0x12 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-errno.o)
+                                         0x13 (松开之前的大小)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-printf.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-puts.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-syssbrk.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fwalk.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memchr.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-freer.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-reallocr.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-writer.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-closer.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fstatr.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-isattyr.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-lseekr.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-mlock.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-msizer.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-readr.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .comment       0x000000000000002d       0x1c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-atexit.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-environ.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-exit.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fini.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-init.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+ .comment       0x000000000000002d       0x13 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__call_atexit.o)
+
+.riscv.attributes
+                0x0000000000000000       0x39
+ .riscv.attributes
+                0x0000000000000000       0x35 asan_test.o
+ .riscv.attributes
+                0x0000000000000035       0x35 malloc.o
+ .riscv.attributes
+                0x000000000000006a       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-errno.o)
+ .riscv.attributes
+                0x000000000000009f       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fprintf.o)
+ .riscv.attributes
+                0x00000000000000d4       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-impure.o)
+ .riscv.attributes
+                0x0000000000000109       0x33 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memcpy-asm.o)
+ .riscv.attributes
+                0x000000000000013c       0x33 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memset.o)
+ .riscv.attributes
+                0x000000000000016f       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+ .riscv.attributes
+                0x00000000000001a4       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-printf.o)
+ .riscv.attributes
+                0x00000000000001d9       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-puts.o)
+ .riscv.attributes
+                0x000000000000020e       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-syssbrk.o)
+ .riscv.attributes
+                0x0000000000000243       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wbuf.o)
+ .riscv.attributes
+                0x0000000000000278       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-wsetup.o)
+ .riscv.attributes
+                0x00000000000002ad       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fflush.o)
+ .riscv.attributes
+                0x00000000000002e2       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-findfp.o)
+ .riscv.attributes
+                0x0000000000000317       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fvwrite.o)
+ .riscv.attributes
+                0x000000000000034c       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fwalk.o)
+ .riscv.attributes
+                0x0000000000000381       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-makebuf.o)
+ .riscv.attributes
+                0x00000000000003b6       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memchr.o)
+ .riscv.attributes
+                0x00000000000003eb       0x33 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-memmove.o)
+ .riscv.attributes
+                0x000000000000041e       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-freer.o)
+ .riscv.attributes
+                0x0000000000000453       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-mallocr.o)
+ .riscv.attributes
+                0x0000000000000488       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-reallocr.o)
+ .riscv.attributes
+                0x00000000000004bd       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .riscv.attributes
+                0x00000000000004f2       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-sbrkr.o)
+ .riscv.attributes
+                0x0000000000000527       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-stdio.o)
+ .riscv.attributes
+                0x000000000000055c       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-writer.o)
+ .riscv.attributes
+                0x0000000000000591       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-closer.o)
+ .riscv.attributes
+                0x00000000000005c6       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fstatr.o)
+ .riscv.attributes
+                0x00000000000005fb       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-isattyr.o)
+ .riscv.attributes
+                0x0000000000000630       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-lseekr.o)
+ .riscv.attributes
+                0x0000000000000665       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-mlock.o)
+ .riscv.attributes
+                0x000000000000069a       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-nano-msizer.o)
+ .riscv.attributes
+                0x00000000000006cf       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-readr.o)
+ .riscv.attributes
+                0x0000000000000704       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-reent.o)
+ .riscv.attributes
+                0x0000000000000739       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .riscv.attributes
+                0x000000000000076e       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .riscv.attributes
+                0x00000000000007a3       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .riscv.attributes
+                0x00000000000007d8       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .riscv.attributes
+                0x000000000000080d       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .riscv.attributes
+                0x0000000000000842       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .riscv.attributes
+                0x0000000000000877       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .riscv.attributes
+                0x00000000000008ac       0x37 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .riscv.attributes
+                0x00000000000008e3       0x33 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ .riscv.attributes
+                0x0000000000000916       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .riscv.attributes
+                0x000000000000094b       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .riscv.attributes
+                0x0000000000000980       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .riscv.attributes
+                0x00000000000009b5       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+ .riscv.attributes
+                0x00000000000009ea       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-atexit.o)
+ .riscv.attributes
+                0x0000000000000a1f       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-environ.o)
+ .riscv.attributes
+                0x0000000000000a54       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-exit.o)
+ .riscv.attributes
+                0x0000000000000a89       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-fini.o)
+ .riscv.attributes
+                0x0000000000000abe       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-init.o)
+ .riscv.attributes
+                0x0000000000000af3       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__atexit.o)
+ .riscv.attributes
+                0x0000000000000b28       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libc_nano.a(lib_a-__call_atexit.o)
+
+.debug_info     0x0000000000000000     0x103d
+ .debug_info    0x0000000000000000       0xd1 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .debug_info    0x00000000000000d1      0x2de /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .debug_info    0x00000000000003af       0xab /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .debug_info    0x000000000000045a      0x111 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .debug_info    0x000000000000056b      0x113 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .debug_info    0x000000000000067e      0x136 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .debug_info    0x00000000000007b4      0x171 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .debug_info    0x0000000000000925       0x29 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .debug_info    0x000000000000094e       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ .debug_info    0x0000000000000976      0x13a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .debug_info    0x0000000000000ab0      0x169 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .debug_info    0x0000000000000c19      0x340 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .debug_info    0x0000000000000f59       0xe4 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+
+.debug_abbrev   0x0000000000000000      0x8b1
+ .debug_abbrev  0x0000000000000000       0x7d /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .debug_abbrev  0x000000000000007d       0xd5 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .debug_abbrev  0x0000000000000152       0x56 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .debug_abbrev  0x00000000000001a8       0x9f /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .debug_abbrev  0x0000000000000247       0xa6 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .debug_abbrev  0x00000000000002ed       0xda /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .debug_abbrev  0x00000000000003c7       0xaa /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .debug_abbrev  0x0000000000000471       0x14 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .debug_abbrev  0x0000000000000485       0x14 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ .debug_abbrev  0x0000000000000499       0xba /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .debug_abbrev  0x0000000000000553       0xe3 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .debug_abbrev  0x0000000000000636      0x1e8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .debug_abbrev  0x000000000000081e       0x93 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+
+.debug_loclists
+                0x0000000000000000      0x4c9
+ .debug_loclists
+                0x0000000000000000       0x36 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .debug_loclists
+                0x0000000000000036       0x60 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .debug_loclists
+                0x0000000000000096       0x36 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .debug_loclists
+                0x00000000000000cc       0x8a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .debug_loclists
+                0x0000000000000156       0x8a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .debug_loclists
+                0x00000000000001e0       0x8c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .debug_loclists
+                0x000000000000026c       0x8a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .debug_loclists
+                0x00000000000002f6       0xc8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .debug_loclists
+                0x00000000000003be      0x10b /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+
+.debug_aranges  0x0000000000000000      0x270
+ .debug_aranges
+                0x0000000000000000       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .debug_aranges
+                0x0000000000000030       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .debug_aranges
+                0x0000000000000060       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .debug_aranges
+                0x0000000000000090       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .debug_aranges
+                0x00000000000000c0       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .debug_aranges
+                0x00000000000000f0       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .debug_aranges
+                0x0000000000000120       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .debug_aranges
+                0x0000000000000150       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .debug_aranges
+                0x0000000000000180       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ .debug_aranges
+                0x00000000000001b0       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .debug_aranges
+                0x00000000000001e0       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .debug_aranges
+                0x0000000000000210       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .debug_aranges
+                0x0000000000000240       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+
+.debug_line     0x0000000000000000      0xd76
+ .debug_line    0x0000000000000000       0x92 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .debug_line    0x0000000000000092       0xaf /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .debug_line    0x0000000000000141       0x67 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .debug_line    0x00000000000001a8       0x9c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .debug_line    0x0000000000000244       0xa5 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .debug_line    0x00000000000002e9      0x123 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .debug_line    0x000000000000040c       0x8d /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .debug_line    0x0000000000000499      0x432 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .debug_line    0x00000000000008cb       0x60 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+ .debug_line    0x000000000000092b       0xbb /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .debug_line    0x00000000000009e6       0xdf /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .debug_line    0x0000000000000ac5      0x1e2 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .debug_line    0x0000000000000ca7       0xcf /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+
+.debug_str      0x0000000000000000      0x3dc
+ .debug_str     0x0000000000000000       0xf3 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+                                        0x12c (松开之前的大小)
+ .debug_str     0x00000000000000f3       0xf7 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+                                        0x268 (松开之前的大小)
+ .debug_str     0x00000000000001ea        0x8 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+                                        0x10e (松开之前的大小)
+ .debug_str     0x00000000000001f2        0x7 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+                                        0x141 (松开之前的大小)
+ .debug_str     0x00000000000001f9        0xf /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+                                        0x143 (松开之前的大小)
+ .debug_str     0x0000000000000208       0x35 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+                                        0x15a (松开之前的大小)
+ .debug_str     0x000000000000023d       0x2b /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+                                        0x16e (松开之前的大小)
+ .debug_str     0x0000000000000268       0x51 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+ .debug_str     0x00000000000002b9       0x12 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+                                         0x54 (松开之前的大小)
+ .debug_str     0x00000000000002cb       0x32 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+                                        0x152 (松开之前的大小)
+ .debug_str     0x00000000000002fd       0x5c /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+                                        0x17b (松开之前的大小)
+ .debug_str     0x0000000000000359       0x83 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+                                        0x1a9 (松开之前的大小)
+ .debug_str     0x00000000000003dc      0x130 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+
+.debug_line_str
+                0x0000000000000000      0x2c8
+ .debug_line_str
+                0x0000000000000000       0xa7 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+                                         0xed (松开之前的大小)
+ .debug_line_str
+                0x00000000000000a7       0x8a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+                                        0x179 (松开之前的大小)
+ .debug_line_str
+                0x0000000000000131       0x10 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+                                         0x95 (松开之前的大小)
+ .debug_line_str
+                0x0000000000000141        0xf /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+                                         0xfe (松开之前的大小)
+ .debug_line_str
+                0x0000000000000150       0x75 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+                                        0x162 (松开之前的大小)
+ .debug_line_str
+                0x00000000000001c5        0xe /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+                                        0x151 (松开之前的大小)
+ .debug_line_str
+                0x00000000000001d3       0x2b /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+                                        0x1e1 (松开之前的大小)
+ .debug_line_str
+                0x00000000000001fe        0xf /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crt0.o)
+                                         0x45 (松开之前的大小)
+ .debug_line_str
+                0x000000000000020d        0xa /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(crtmain.o)
+                                         0x48 (松开之前的大小)
+ .debug_line_str
+                0x0000000000000217       0x1a /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+                                        0x16e (松开之前的大小)
+ .debug_line_str
+                0x0000000000000231       0x66 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+                                        0x14d (松开之前的大小)
+ .debug_line_str
+                0x0000000000000297       0x23 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+                                        0x17c (松开之前的大小)
+ .debug_line_str
+                0x00000000000002ba        0xe /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+                                        0x166 (松开之前的大小)
+
+.debug_frame    0x0000000000000000      0x228
+ .debug_frame   0x0000000000000000       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(close.o)
+ .debug_frame   0x0000000000000038       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(fstat.o)
+ .debug_frame   0x0000000000000070       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(isatty.o)
+ .debug_frame   0x0000000000000098       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(lseek.o)
+ .debug_frame   0x00000000000000d0       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(read.o)
+ .debug_frame   0x0000000000000108       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(sbrk.o)
+ .debug_frame   0x0000000000000140       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(write.o)
+ .debug_frame   0x0000000000000168       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(traps.o)
+ .debug_frame   0x0000000000000198       0x38 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(tls.o)
+ .debug_frame   0x00000000000001d0       0x30 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)
+ .debug_frame   0x0000000000000200       0x28 /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(exit.o)
+
+.debug_rnglists
+                0x0000000000000000       0x2f
+ .debug_rnglists
+                0x0000000000000000       0x2f /home/drimple/work/chipyard/.conda-env/riscv-tools/bin/../lib/gcc/riscv64-unknown-elf/12.2.0/../../../../riscv64-unknown-elf/lib/libgloss_htif.a(htif.o)

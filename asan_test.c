@@ -78,15 +78,15 @@ int main()
 
     //asan的测试
     //申请了一块shadow memory
-    char *p0;
-    p0 = NULL;
-    p0 = (char *)shadow_malloc(134217744);//128M+16个字节
-    if(p0 == NULL){
-        printf("没成功\n");
-    }
-    else{
-        printf("%x\n",p0);
-    }
+    // char *p0;
+    // p0 = NULL;
+    // p0 = (char *)shadow_malloc(134217744);//128M+16个字节
+    // if(p0 == NULL){
+    //     printf("没成功\n");
+    // }
+    // else{
+    //     printf("%x\n",p0);
+    // }
     //ROCC_INSTRUCTION_S(0, p0, 6);
 
     int *p1;
@@ -143,8 +143,8 @@ int main()
     p1 = NULL;
     //cycle_end = read_csr(0xb00);
     //把shadow memory free掉
-    shadow_free(p0);
-    p0 = NULL;
+    // shadow_free(p0);
+    // p0 = NULL;
 
     //printf("hello\n");
     end();

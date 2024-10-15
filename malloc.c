@@ -1590,13 +1590,13 @@ void zz_set(Void_t* m, size_t bytes){
   b = bytes % 32;
   unsigned char* start = &shadow[((long)m)>>5];
   for(int i=0; i<a; i=i+1){
-    //ROCC_INSTRUCTION_SS(0, start + i*32, 32, 5)
-    *(start+i)=32;
+    ROCC_INSTRUCTION_SS(0, m, 32, 6);
+    //*(start+i)=32;
   }
   if(b == 0){}
   else{
-    //ROCC_INSTRUCTION_SS(0, start + a*32, b, 5)
-    *(start+a)=bytes;
+    ROCC_INSTRUCTION_SS(0, m, b, 6);
+    //*(start+a)=bytes;
   }
 }
 
@@ -1606,13 +1606,13 @@ void zz_unset(Void_t* m, size_t bytes){
   b = bytes % 32;
   unsigned char* start = &shadow[((long)m)>>5];
   for(int i=0; i<a; i=i+1){
-    //ROCC_INSTRUCTION_SS(0, start + i*32, 255, 5)
-    *(start+i)=255;
+    ROCC_INSTRUCTION_SS(0, m, 255, 5);
+    //*(start+i)=255;
   }
   if(b == 0){}
   else{
-    //ROCC_INSTRUCTION_SS(0, start + a*32, 255, 5)
-    *(start+a)=255;
+    ROCC_INSTRUCTION_SS(0, m, 255, 5);
+    //*(start+a)=255;
   }
 }
 
